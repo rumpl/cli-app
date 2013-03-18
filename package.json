@@ -1,6 +1,10 @@
 {
-  "name": "cli-command",
+  "name": "cli-app",
   "description": "Simple command line application helper",
+  "author": {
+    "name": "rumpl",
+    "email": "lukic.djordje@gmail.com"
+  },
   "version": "0.1.0",
   "repository": {
     "url": "git://github.com/rumpl/cli-app.git"
