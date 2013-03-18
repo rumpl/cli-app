@@ -32,7 +32,7 @@ $ node app.js command
 ```
 You will see `YAY!`
 
-Bonus: free usage!
+**Bonus: free usage!**
 
 ```bash
 $ node app.js wat
