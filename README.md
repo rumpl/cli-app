@@ -34,7 +34,7 @@ You will see `YAY!`
 
 **Bonus: free usage!**
 
-```bash
+```
 $ node app.js wat
 Undefined command: wat
 Usage: awesome [COMMANDS] [OPTIONS]
