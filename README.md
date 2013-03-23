@@ -19,8 +19,9 @@ app.command('command', 'Put some description', function() {
   console.log('YAY!');
 });
 
-app.command('command2', 'Some other description', function(param1, param2) {
+app.command('commandWithParams', 'Some other description', function(param1, param2) {
   console.log('YAY too!');
+  console.log('Got params: ', param1, param2);
 });
 
 app.run();
@@ -31,6 +32,12 @@ When run:
 $ node app.js command
 ```
 You will see `YAY!`
+
+Or:
+```
+$ node app.js commandWithParams Hello World
+Got params: Hello World
+```
 
 **Bonus: free usage!**
 
